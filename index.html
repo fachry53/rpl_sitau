@@ -1,42 +1,78 @@
 <html>
     <head>
-            <!-- CSS only -->
-            <link rel="stylesheet" href="resources/css/bootstrap.min.css">
 
-            <!-- JS, Popper.js, and jQuery -->
-            <script src="resources/js/bootstrap.min.js"></script>
-            <title>
+      <!-- CSS only -->
+      <link rel="stylesheet" href="resources/css/bootstrap.min.css">
 
-            </title>
+      <!-- JS, Popper.js, and jQuery -->
+      <script src="resources/js/bootstrap.min.js"></script>
+      
+      <title> Sitau Project </title>
     </head>
     <body>
+
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#1ee136;">
-        <a class="navbar-brand" href="index.html" style="color: whitesmoke;"><b>SITAU</b></a>
+      <navbar class="navbar navbar-expand-lg navbar-light" style="background-color:#1ee136;">
+        <div class="container">
 
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html" style="font-family: sans-serif; color: whitesmoke;"> Home </a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#" style="font-family: sans-serif; color: whitesmoke;"> Framework Info </a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#" style="font-family: sans-serif; color: whitesmoke;"> Search your framework </a>
-          </li>
-        </ul>
-      </nav>
+          <!-- Tulisan Sitau -->
+          <div class="float-left">
+            <a class="navbar-brand" href="index.html" style="color: whitesmoke;"><b>SITAU</b></a>
+          </div>
+          
+          <!-- Menu Navigasi -->
+          <div class="float-right">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html" style="font-family: sans-serif; color: whitesmoke;"> Home </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="framework-info.html" style="font-family: sans-serif; color: whitesmoke;"> Framework Info </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" style="font-family: sans-serif; color: whitesmoke;"> Find your framework </a>
+                </li>
+              </ul>
+            </div>
+          </div>
 
-        <!-- Default unchecked -->
-        <div class="custom-control custom-radio">
-          <input type="radio" class="custom-control-input" id="defaultUnchecked" name="defaultExampleRadios">
-          <label class="custom-control-label" for="defaultUnchecked">Default unchecked</label>
         </div>
-      
-      <!-- Default checked -->
-      <div class="custom-control custom-radio">
-        <input type="radio" class="custom-control-input" id="defaultChecked" name="defaultExampleRadios" checked>
-        <label class="custom-control-label" for="defaultChecked">Default checked</label>
+      </navbar>
+
+      <!-- Konten Utama -->
+      <div class="main-body">
+        <div class="container">
+          <div class="content" style="margin: 20px;">
+            <p style="text-align: justify;">
+              SITAU adalah sebuah <i> software </i> yang bertujuan menjelaskan kerangka kerja (<i>framework</i>)
+              dalam membuat atau membangun sebuah web. Hal ini penting untuk diketahui karena sebuah software 
+              yang baik haruslah dibangun dengan kerangka kerja yang jelas sehingga mudah dikembangkan kembali
+              jika diperlukan. 
+            </p>
+
+            <p style="text-align: justify;">
+              <i>Software</i> ini dibuat untuk menjelaskan kegunaan setiap kerangka kerja sesuai spesifikasi 
+              proyek. Pengguna bisa memilih kerangka kerja berdasarkan karakteristik projek yang diterima.
+              Menu <b><i>framework info</i></b> berfungsi untuk melihat penjelasan tentang pelbagai jenis
+              <i>framework</i> berdasarkan karakteristik dan kegunaannya. Menu <b><i> find your framework
+              </i></b> merupakan menu yang mencari kecocokan antara <i> framework </i> yang akan digunakan 
+              dengan karakteristik projek yang akan dikerjakan.
+            </p>
+
+          </div>
+        </div>
       </div>
+
+      <!-- Footer -->
+      <footer class="fixed-bottom" style="background-color: black; color: white;">
+        <p style="text-align: center;"> Copyright &copy; by Kelompok 2 RPL </p>
+      </footer>
+
+      <!-- Script -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
     </body>
 </html>
